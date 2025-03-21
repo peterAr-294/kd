@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+
+    <head>
+        <title>TODO supply a title</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+    <body>
+        <div>
+            <p>Aprēķināt cik daudz informācijas var lejupielādēt</p>
+            
+                <input type="text" id="apr">
+      
+                <span>sekundēs, ja interneta ātrums ir 25 Mbps.</span>
+                <br>
+                <p>Atbilde</p>
+                <input type="text" id="atb">
+                <span>
+                    
+                        <input type="radio" id="kib" onClick="myFunction()">
+                        <label>KiB</label>
+                        <input type="radio" id="kb">
+                        <label>KB</label>
+                    
+                </span>
+            
+        </div>
+        <script>
+            function myFunction() {
+                document.getElementById('kib').innerHTML * 1024;
+                
+            function myFunction1() {
+                document.getElementById('kb').innerHTML * 1000;
+            
+                
+                
+            }
+        </script>
+    </body>
+</html>
